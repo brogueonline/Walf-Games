@@ -1,8 +1,41 @@
+section main {
+    box-sizing: content-box;
+
+    justify-content: space-evenly;
+
+    margin-left: 20px;
+
+}
+
+/* footer {
+
+    box-sizing: border-box;
+    flex-direction: column;
+    margin-left: 25px
+} */
+
+
+#container {
+
+    width: 900px;
+
+    background-color: rgba(143, 221, 208, .8);
+    border-radius: 8px;
+    text-align: center;
+    padding: 50px 0;
+    margin: 0 auto;
+    position: relative;
+    top: 250px;
+}
+
+
+
 #work {
     font-size: 30px;
     text-decoration: none;
     text-align: center;
-    margin-top: 200px;
+    margin: 40px;
+    margin-bottom: 55px;
 
 }
 
@@ -12,4 +45,60 @@ a:link {
 
 main p a {
     color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#footer1 {
+
+    background-color: rgb(93, 136, 174);
+    margin-top: 350px;
+    width: 105px;
+    padding: 0;
+    border-radius: 3px;
+
+}
+
+#inside {
+    /* margin-top: 350px; */
+    font-size: 18px;
+    font-weight: 550;
+}
+
+#footer1 a:hover {
+    background-color: rgb(115, 115, 204);
+
+    padding: 3.5px;
+    border-radius: 3px;
+}
+
+
+#footer2 {
+
+    background-color: rgb(93, 136, 174);
+    /* margin-top: 350px; */
+    width: 120px;
+    padding: 0;
+    border-radius: 3px;
+
+
+}
+
+#inside2 {
+
+    /* margin-top: 350px; */
+    font-size: 18px;
+    font-weight: 550;
+
+}
+
+#footer2 a:hover {
+
+    background-color: rgb(115, 115, 204);
+
+    padding: 1.6px;
+    border-radius: 3px;
+
 }
