@@ -1,0 +1,15 @@
+#work {
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 200px;
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+main p a {
+    color: black;
+}

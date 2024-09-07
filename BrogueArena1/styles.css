@@ -1,0 +1,70 @@
+#container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#hero-container {
+    width: 900px;
+    background-color: rgba(195, 191, 191, 0.8);
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 8px;
+    text-align: center;
+    padding: 50px 0;
+    margin: 0 auto;
+    position: relative;
+    top: 335px;
+}
+
+#hero {
+
+    height: 900px;
+    background-image: url("img/places/hero.jpg");
+    background-position: fixed;
+    background-size: cover;
+}
+
+#hero-container h1 {
+    font-family: "Raleway", sans-serif;
+    color: rgb(79, 130, 117);
+    text-transform: uppercase;
+    font-size: 50px;
+    margin: 0;
+    font-weight: 400;
+}
+
+#hero-container p {
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+#hero-container a {
+    text-decoration: none;
+    background-color: rgba(62, 62, 167, 0.8);
+    padding: 7px;
+    color: rgb(208, 225, 229);
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67)
+}
+
+#hero-container a:hover {
+    background-color: rgb(242, 180, 68);
+}
+
+
+#footer {
+    background-image: url('img/places/footer-filler2.jpg');
+
+    background-position: absolute;
+    background-bottom: 0;
+    background-left: 0;
+    z-index: 10;
+}
+
+footer section div {
+    color: rgb(48, 48, 48)
+}
