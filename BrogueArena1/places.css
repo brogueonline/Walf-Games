@@ -1,26 +1,11 @@
 #container {
     display: flex;
-    justify-content: center;
-}
-
-header p a {
-    color: black;
-    font-size: 50px;
-    text-align: center;
-    margin-top: 200px;
-}
-
-header a:link {
-    text-decoration: none;
+    justify-content: space-between;
 }
 
 
 ul {
     list-style: none;
-}
-
-main p {
-    font-weight: 700;
 }
 
 
@@ -43,6 +28,70 @@ main p {
 }
 
 
-#go-home:hover {
-    text-decoration: underline;
+#page-logo a {
+
+    color: rgb(88, 181, 69);
+    font-size: 50px;
+    font-weight: 700;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, .7);
+}
+
+/* header { */
+/* margin: 10px; */
+/* padding: 15px 35px; */
+/* position: absolute; */
+/* width: 100%; */
+/* box-sizing: border-box; */
+
+/* } */
+
+header ul {
+    display: flex;
+}
+
+header li {
+    margin-left: 25px;
+}
+
+ul {
+
+    list-style: none;
+    padding: 0;
+}
+
+li {
+
+    display: inline-flex;
+    font-size: 30px;
+}
+
+
+
+header a {
+    color: rgb(100, 122, 130);
+    text-decoration: none;
+    padding: 5px;
+    font-weight: 600;
+
+
+}
+
+
+header a:hover {
+    color: rgb(77, 77, 77);
+    background-color: rgb(139, 195, 208);
+    border-radius: 6px;
+
+}
+
+#in:hover {
+    background-color: rgba(149, 210, 200, 0.39);
+
+}
+
+
+header div a {
+    margin-left: 25px;
+    margin-top: 25px;
 }
